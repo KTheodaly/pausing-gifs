@@ -61,7 +61,8 @@ $(document).ready(function () {
 
                 //should i append this somewhere?
 
-                //$("#mainimages").append
+                $("#mainimages").append(dataImage);
+                $("#mainimages").append(divRating);
             }
         });
     }
