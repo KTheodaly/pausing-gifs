@@ -1,5 +1,5 @@
-//i actually think an array is fine without a whole function quite yet here, we'll see
-var topics = ["floof", "YAS", "Rude", "Spooky", "Ugly", "help", "pupper", "boogie", "no", "omg"];
+//array for the buttons we will display without the user inputting anything
+var topics = ["floof", "YAS", "rude", "spooky", "ugly", "oops", "pupper", "boogie", "no", "omg"];
 
 $(document).ready(function () {
     renderButton();
@@ -14,7 +14,7 @@ $(document).ready(function () {
             newButton.text(topics[i]);
             newButton.attr("data-name", topics[i]);
             $("#allbuttons").append(newButton);
-            //this should append it to my all buttons div?
+            //this should append it to my all buttons div
         }
     }
     //trying to create buttons for the user input
@@ -29,7 +29,7 @@ $(document).ready(function () {
         }
 
     });
-    //use the item button class because they all have that class
+    //onclick for the button class to display data we will pull
     $(document).on("click", ".itembutton", displayInfo);
 
     function displayInfo() {
@@ -55,11 +55,11 @@ $(document).ready(function () {
                 dataImage.attr("data-state", "still");
 
 
-                //i know that displaying the rating looks like this but not sure what to do with it?
+                // assign variables for our data
                 var gifRating = results[i].rating;
                 var divRating = $("<p>").text("Rating: " + gifRating);
 
-                //should i append this somewhere?
+                //append our gifs to the divs 
 
                 $("#mainimages").append(dataImage);
                 $("#mainimages").append(divRating);

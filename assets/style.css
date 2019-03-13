@@ -1,0 +1,56 @@
+body {
+    height: 100%;
+    background: url(./hotdogs.png);
+    font-family: 'Righteous', cursive;
+  }
+
+  #allbuttons {
+      width: 60%;
+      margin-left: 20%;
+      margin-right: 20%;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      text-align: center;
+  }
+
+  button.itembutton {
+      margin: 5px;
+  }
+
+  img.gif {
+      width: 75%;
+      padding-top: 30px;
+  }
+
+ .container-fluid {
+    display: block;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    background-color: rgb(231, 157, 20);
+    opacity: .94;
+    border-radius: 10px;
+  }
+
+  .navbar {
+      color: white;
+      text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+      0px 8px 13px rgba(0,0,0,0.1),
+      0px 18px 23px rgba(0,0,0,0.1);
+      background-color: rgb(231, 157, 20);
+      box-shadow: 
+        inset 0px -50px 20px -50px rgb(160, 10, 10);
+  }
+  .navbar.title {
+    box-shadow: none;
+  }
+  #addbutton {
+      color: white;
+      text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+      0px 8px 13px rgba(0,0,0,0.1),
+      0px 18px 23px rgba(0,0,0,0.1);
+      background-color: rgb(36, 150, 36);
+  }
+  
