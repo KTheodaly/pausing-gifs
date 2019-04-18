@@ -17,5 +17,5 @@
 
 ## What is the goal of the project?
 
-* create a player that pulls gifs from Giphy using API and creates buttons so users can input their own topics.
-* Ten search results with ratings displayed.
+* Pull gifs from Giphy using API and create buttons so users can input their own topics.
+* Search results with ratings displayed.
